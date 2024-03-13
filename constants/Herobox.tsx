@@ -1,0 +1,38 @@
+export const landingTexts = {
+  RO: {
+    heroTitle: "ECOPLAST HART",
+    landingTitle2: "Colectare",
+    landingTitle3: "Reciclare",
+    landingTitle4: "si",
+    heroPText1:
+      "At ECOPLAST HART we specialize in the collection, sorting, and recycling of all types of waste materials",
+    heroPText2: "Join the recycling revolution and make the world greener.",
+    landingLeftText1: "Alaturati-va",
+    landingLeftText2: "revolutiei",
+    landingLeftText3: "reciclarii",
+    landingLeftText4: "si",
+    landingLeftText5: "impreuna",
+    landingLeftText6: "facem",
+    landingLeftText7: "lumea",
+    landingLeftText8: "mai",
+    landingLeftText9: "verde",
+  },
+  EN: {
+    heroTitle: "ECOPLAST HART",
+    landingTitle2: "Collecting",
+    landingTitle3: "Recycling",
+    landingTitle4: "and",
+    heroPText1:
+      "At ECOPLAST HART we specialize in the collection, sorting, and recycling of all types of waste materials",
+    heroPText2: "Join the recycling revolution and make the world greener.",
+    landingLeftText1: "Join",
+    landingLeftText2: "the",
+    landingLeftText3: "recycling",
+    landingLeftText4: "revolution",
+    landingLeftText5: "and",
+    landingLeftText6: "make",
+    landingLeftText7: "the",
+    landingLeftText8: "world",
+    landingLeftText9: "greener",
+  },
+};

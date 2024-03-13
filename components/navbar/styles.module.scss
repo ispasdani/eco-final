@@ -1,0 +1,223 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .logo {
+    margin-right: 20px;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbarLeft {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .navLink {
+        color: var(--main-white);
+        font-size: 18px;
+        margin: 0px 15px;
+        position: relative;
+
+        .navLinkDecor {
+          width: 10px;
+          height: 5px;
+          background-color: var(--main-white);
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+
+      .navLink:hover .navLinkDecor {
+        width: 100%;
+      }
+    }
+
+    .langContainer {
+      position: relative;
+      width: 50px;
+      height: 35px;
+      margin-right: 10px;
+
+      .selectLang {
+        width: 50px;
+        height: 35px;
+        font-size: 16px;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+
+        option {
+          color: var(--main-black);
+        }
+      }
+    }
+  }
+
+  .mobileNav {
+    width: 100%;
+    height: 0px;
+    background-color: var(--main-green);
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: var(--main-white);
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: 0.5s all ease-in-out;
+
+    .navbarLeft {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      .navLink {
+        color: var(--main-white);
+        font-size: 18px;
+        margin: 15px;
+        position: relative;
+
+        .navLinkDecor {
+          width: 10px;
+          height: 5px;
+          background-color: var(--main-white);
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+
+      .navLink:hover .navLinkDecor {
+        width: 100%;
+      }
+    }
+
+    .langContainer {
+      position: relative;
+      width: 50px;
+      height: 35px;
+      margin-right: 10px;
+
+      .selectLang {
+        width: 50px;
+        height: 35px;
+        font-size: 16px;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+
+        option {
+          color: var(--main-black);
+        }
+      }
+    }
+  }
+
+  .hamburger {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+    z-index: 3;
+
+    span:nth-child(1) {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+    }
+
+    span:nth-child(2) {
+      width: 10px;
+      height: 3px;
+      background-color: white;
+      transition: 0.3s all ease-in-out;
+    }
+
+    span:nth-child(3) {
+      width: 20px;
+      height: 3px;
+      background-color: white;
+      transition: 0.3s all ease-in-out;
+    }
+  }
+
+  .hamburger:hover span:nth-child(2) {
+    width: 30px;
+  }
+
+  .hamburger:hover span:nth-child(3) {
+    width: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    justify-content: space-between;
+    .navbar {
+      display: none;
+    }
+
+    .mobileNav {
+      height: 36vh;
+      -webkit-animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        both;
+      animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+  }
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
