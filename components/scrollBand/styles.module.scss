@@ -1,0 +1,14 @@
+.textOnScrollContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  align-items: flex-end;
+  color: var(--text-green);
+
+  .motionText {
+    font-size: 50px;
+    white-space: nowrap;
+    margin-left: 25px;
+  }
+}

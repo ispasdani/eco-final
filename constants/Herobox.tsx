@@ -5,7 +5,7 @@ export const landingTexts = {
     landingTitle3: "Reciclare",
     landingTitle4: "si",
     heroPText1:
-      "At ECOPLAST HART we specialize in the collection, sorting, and recycling of all types of waste materials",
+      "La ECOPLAST HART ne specializăm în colectarea, sortarea și reciclarea tuturor tipurilor de deșeuri.",
     heroPText2: "Join the recycling revolution and make the world greener.",
     landingLeftText1: "Alaturati-va",
     landingLeftText2: "revolutiei",
