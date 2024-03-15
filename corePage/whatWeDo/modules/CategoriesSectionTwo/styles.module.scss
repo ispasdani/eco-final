@@ -1,0 +1,98 @@
+.categoriesSectionTwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "paperCardboardWaste paperCardboardImages paperCardboardImages paperCardboardImages"
+    "paperCardboardWaste paperCardboardImages paperCardboardImages paperCardboardImages"
+    "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages"
+    "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  .paperCardboardWaste {
+    grid-area: paperCardboardWaste;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .paperCardboardImages {
+    grid-area: paperCardboardImages;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .paperCardboardImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .paperCardboardImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .paperCardboardImages::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  .textileAndLeatherWaste {
+    grid-area: textileAndLeatherWaste;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .textileAndLeatherImages {
+    grid-area: textileAndLeatherImages;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .textileAndLeatherImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .textileAndLeatherImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .textileAndLeatherImages::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 900px) {
+  .categoriesSectionTwo {
+    height: 100vh;
+    grid-template-areas:
+      "paperCardboardWaste paperCardboardWaste plasticWaste plasticWaste"
+      "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages"
+      "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages"
+      "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages"
+      "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages"
+      "textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste"
+      "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages"
+      "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages"
+      "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages"
+      "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+
+    .paperCardboardWaste {
+      height: 100px;
+    }
+
+    .textileAndLeatherWaste {
+      height: 100px;
+    }
+  }
+}

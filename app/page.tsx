@@ -6,6 +6,7 @@ import AboutUsSectionTwo from "@/corePage/aboutUs/modules/AboutUsSectionTwo/Abou
 import Herobox from "@/corePage/herobox/Herobox";
 import WhatWeDo from "@/corePage/whatWeDo/WhatWeDo";
 import CategoriesSectionOne from "@/corePage/whatWeDo/modules/CategoriesSectionOne/CategoriesSectionOne";
+import CategoriesSectionTwo from "@/corePage/whatWeDo/modules/CategoriesSectionTwo/CategoriesSectionTwo";
 import WhyUs from "@/corePage/whyUs/WhyUs";
 import WhyUsSectionTwo from "@/corePage/whyUs/modules/WhyUsSectionTwo/WhyUsSectionTwo";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <WhyUsSectionTwo />
       <WhatWeDo />
       <CategoriesSectionOne />
+      <CategoriesSectionTwo />
     </main>
   );
 }

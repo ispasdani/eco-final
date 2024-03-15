@@ -8,9 +8,12 @@ export const plasticwaste = [
 ];
 export const woodwaste = ["url(/images/wood/wood.JPG)"];
 
-export const papercardboardwaste = ["/images/carton.jpg", "/images/hartie.jpg"];
+export const papercardboardwaste = [
+  "url(/images/carton/carton.JPG)",
+  "url(/images/carton/hartie.JPG)",
+];
 
-export const textileandleatherwaste = ["/images/piele.jpg"];
+export const textileandleatherwaste = ["url(/images/piele/piele.jpg)"];
 
 export const ferrousmetalwaste = ["/images/metalicferos.jpg"];
 
