@@ -1,0 +1,18 @@
+.europeMap {
+  width: 500px;
+  .ro:hover {
+    fill: var(--text-green);
+    stroke: var(--text-green);
+    cursor: pointer;
+  }
+  .hu:hover {
+    fill: var(--text-green);
+    stroke: var(--text-green);
+    cursor: pointer;
+  }
+  .md:hover {
+    fill: var(--text-green);
+    stroke: var(--text-green);
+    cursor: pointer;
+  }
+}

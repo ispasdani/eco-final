@@ -1,0 +1,149 @@
+.aboutUsSectionTwo {
+  width: 100%;
+  height: 125vh;
+  display: grid;
+  grid-template-areas:
+    "imageTwo imageTwo imageTwoRight imageTwoRight"
+    "imageTwo imageTwo imageTwoRight imageTwoRight"
+    "textTwo textTwo imageTwoRight imageTwoRight"
+    "textTwo textTwo textTwoRight textTwoRight"
+    ". . textTwoRight textTwoRight";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  .aboutUsSectionTwoLeft {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+
+    .imageTwo {
+      width: 100%;
+      height: 50vh;
+      background-color: red;
+      grid-area: imageTwo;
+      background-image: url("/images/greifer.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .textTwo {
+      height: 75vh;
+      margin-top: 30px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .aboutUsSectionTwoRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+
+    .imageTwoRight {
+      width: 100%;
+      height: 75vh;
+      grid-area: imageTwoRight;
+      background-image: url("/images/logistics.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .textTwoRight {
+      height: 50vh;
+      margin-top: 30px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .aboutUsSectionTwo {
+    height: 200vh;
+    flex-direction: column;
+
+    .aboutUsSectionTwoLeft {
+      width: 100%;
+      height: 50%;
+
+      .imageTwo {
+        height: 40vh;
+      }
+
+      .textTwo {
+        height: 30vh;
+      }
+    }
+
+    .aboutUsSectionTwoRight {
+      width: 100%;
+      height: 50%;
+
+      .imageTwoRight {
+        height: 40vh;
+      }
+      .textTwoRight {
+        height: 30vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutUsSectionTwo {
+    .aboutUsSectionTwoLeft {
+      padding: 0;
+
+      .textTwo {
+        padding: 15px;
+      }
+    }
+
+    .aboutUsSectionTwoRight {
+      padding: 0;
+      .textTwoRight {
+        padding: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutUsSectionTwo {
+    height: 170vh;
+    .aboutUsSectionTwoLeft {
+      padding: 0;
+      .imageTwo {
+        height: 25vh;
+      }
+
+      .textTwo {
+        padding: 15px;
+      }
+    }
+
+    .aboutUsSectionTwoRight {
+      padding: 0;
+      .imageTwoRight {
+        height: 25vh;
+      }
+      .textTwoRight {
+        padding: 15px;
+      }
+    }
+  }
+}

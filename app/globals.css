@@ -8,6 +8,8 @@
   --main-black: #000000;
   --main-green: #141e1e;
   --text-green: #578847;
+  --border-grey: #cbcbca;
+  --background-grey: #dfdfdf;
 }
 
 * {

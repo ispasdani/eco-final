@@ -11,6 +11,11 @@ export const aboutUsSectionOneTexts = {
 
     aboutTextThree:
       "Prin întreaga sa activitate, compania noastră susține în totalitate campanii pentru schimbarea mentalității cu privire la serviciile dedicate reciclării deșeurilor, precum și pentru aplicarea legislației specifice Comunității Europene și a procedurilor de lucru în domeniul gestionării deșeurilor.",
+
+    aboutTextFour:
+      "Datorită unei politici sănătoase de capitalizare a companiei și reinvestirii continue a profitului în facilități de procesare, parcuri logistice, personal calificat, etc., am reușit să implementăm o strategie eficientă pentru serviciile legate de partenerii noștri, care ne permite să gestionăm eficient deșeurile pe care le generează și, în același timp, să oferim soluții pentru recuperarea acestora, atât în locurile de generare, cât și în depozit, prin alegerea celor mai eficiente metode de reciclare și respectând în totalitate principalele obiective ale politicii UE privind gestionarea deșeurilor, pe parcursul circuitului generator-colector-recuperare.",
+    aboutTextFive:
+      "Am echipat fiecare partener cu mori pentru reducerea volumului deșeurilor și, implicit, a spațiului de depozitare, containere pentru colectarea lor, saci mari pentru colectarea selectivă a deșeurilor, etc. La stația de lucru, avem baza logistică (camioane cu capacități mari și mici, containere), necesară pentru comprimarea deșeurilor, precum și facilități de comprimare și procesare pentru carton, plastic, cabluri de cupru, aluminiu, alamă, deșeuri DEEE.",
   },
   EN: {
     scrollBandText:

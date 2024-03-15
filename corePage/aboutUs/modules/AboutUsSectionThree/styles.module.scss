@@ -1,0 +1,82 @@
+.aboutUsSectionThree {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-green);
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "titleThree titleThree titleThree titleThree"
+    "introTextThree introTextThree introTextThree introTextThree"
+    "infoThree infoThree countryMap countryMap"
+    "infoThree infoThree countryMap countryMap";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  h2 {
+    grid-area: titleThree;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 35px;
+    color: var(--main-white);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  p {
+    grid-area: introTextThree;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    color: var(--main-white);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .bottomText {
+    grid-area: infoThree;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+    p {
+      margin: 15px 0px;
+    }
+  }
+
+  .europeMapContainer {
+    position: relative;
+    grid-area: countryMap;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    .countryTitle {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      font-size: 26px;
+      color: var(--main-grey);
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .aboutUsSectionThree {
+    height: 150vh;
+    grid-template-areas:
+      "titleThree titleThree titleThree titleThree"
+      "introTextThree introTextThree introTextThree introTextThree"
+      "infoThree infoThree infoThree infoThree"
+      "infoThree infoThree infoThree infoThree "
+      "countryMap countryMap countryMap countryMap"
+      "countryMap countryMap countryMap countryMap";
+  }
+}
