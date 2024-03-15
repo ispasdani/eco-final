@@ -1,0 +1,98 @@
+.categoriesSectionOne {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "plasticWaste plasticImages plasticImages plasticImages"
+    "plasticWaste plasticImages plasticImages plasticImages"
+    "woodWaste woodImages woodImages woodImages"
+    "woodWaste woodImages woodImages woodImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  .plasticWaste {
+    grid-area: plasticWaste;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .plasticImages {
+    grid-area: plasticImages;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .plasticImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .plasticImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .plasticImages::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  .woodWaste {
+    grid-area: woodWaste;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .woodImages {
+    grid-area: woodImages;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .woodImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .woodImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .woodImages::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 900px) {
+  .categoriesSectionOne {
+    height: 100vh;
+    grid-template-areas:
+      "plasticWaste plasticWaste plasticWaste plasticWaste"
+      "plasticImages plasticImages plasticImages plasticImages"
+      "plasticImages plasticImages plasticImages plasticImages"
+      "plasticImages plasticImages plasticImages plasticImages"
+      "plasticImages plasticImages plasticImages plasticImages"
+      "woodWaste woodWaste woodWaste woodWaste"
+      "woodImages woodImages woodImages woodImages"
+      "woodImages woodImages woodImages woodImages"
+      "woodImages woodImages woodImages woodImages"
+      "woodImages woodImages woodImages woodImages";
+
+    .plasticWaste {
+      height: 100px;
+    }
+
+    .woodWaste {
+      height: 100px;
+    }
+  }
+}

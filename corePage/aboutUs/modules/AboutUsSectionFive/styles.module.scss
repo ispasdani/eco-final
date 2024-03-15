@@ -1,0 +1,33 @@
+.aboutUsSectionFive {
+  width: 100%;
+  height: 100vh;
+  //   display: grid;
+  //   grid-template-areas:
+  //     "titleFour titleFour introTextFour introTextFour "
+  //     "introFour introFour introFour introFour"
+  //     "certAccordion certAccordion certAccordion certAccordion"
+  //     "certAccordion certAccordion certAccordion certAccordion";
+  //   grid-auto-columns: 1fr;
+  //   grid-auto-rows: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  video {
+    width: 90%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 900px) {
+  .aboutUsSectionFive {
+    height: 50vh;
+
+    video {
+      width: 100%;
+    }
+  }
+}

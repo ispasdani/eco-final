@@ -1,0 +1,59 @@
+.whyUsSectionTwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "sortingMillImg sortingMillImg sortingMillLabel sortingMillLabel"
+    "sortingMillImg sortingMillImg sortingMillLabel sortingMillLabel"
+    "trucksLabel trucksLabel trucksImg trucksImg"
+    "trucksLabel trucksLabel trucksImg trucksImg";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  .sortingMillImg {
+    grid-area: sortingMillImg;
+    background-image: url("/images/moara.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sortingMillLabel {
+    grid-area: sortingMillLabel;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+  }
+
+  .trucksLabel {
+    grid-area: trucksLabel;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+  }
+
+  .trucksImg {
+    grid-area: trucksImg;
+    background-image: url("/images/camioane.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .whyUsSectionTwo {
+    grid-template-areas:
+      "sortingMillImg sortingMillImg"
+      "sortingMillLabel sortingMillLabel"
+      "trucksImg trucksImg"
+      "trucksLabel trucksLabel";
+
+    .sortingMillLabel {
+      padding: 15px;
+    }
+
+    .trucksLabel {
+      padding: 15px;
+    }
+  }
+}

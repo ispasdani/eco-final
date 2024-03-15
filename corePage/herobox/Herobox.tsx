@@ -14,7 +14,7 @@ function Herobox() {
   return (
     <div className={styles.herobox}>
       <GridBackground />
-      <BackgroundVideo />
+      <BackgroundVideo src="/videos/mainVideo.mp4" />
       <div className={styles.heroboxContent}>
         <div className={styles.heroboxLeft}>
           <div>

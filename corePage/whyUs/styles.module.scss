@@ -1,4 +1,204 @@
 .whyUs {
   width: 100%;
-  min-height: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "whyTitle whyTitle experience ."
+    "whyTitle whyTitle . experienceYears"
+    "whyTextBoxOne whyTextBoxOne whyTextBoxTwo whyTextBoxTwo"
+    "whyTextBoxOne whyTextBoxOne whyTextBoxTwo whyTextBoxTwo";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  background-color: var(--main-green);
+  color: var(--main-white);
+
+  .titleBoxWhy {
+    padding-top: 50px;
+    grid-area: whyTitle;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    position: relative;
+    z-index: 2;
+
+    h2 {
+      font-size: 70px;
+      font-weight: bold;
+      margin-left: 30px;
+    }
+
+    span {
+      font-size: 60px;
+    }
+  }
+
+  .whyExperienceTitle {
+    grid-area: experience;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 35px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .whyExperienceContent {
+    grid-area: experienceYears;
+    font-size: 50px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 2;
+
+    p:nth-child(1) {
+      font-weight: bold;
+    }
+  }
+
+  .whyTextBoxOne {
+    grid-area: whyTextBoxOne;
+    padding-left: 50px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 2;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .whyTextBoxTwo {
+    grid-area: whyTextBoxTwo;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 2;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .whyUs {
+    grid-template-areas:
+      "whyTitle whyTitle whyTitle whyTitle"
+      "experience experience experienceYears experienceYears"
+      "whyTextBoxOne whyTextBoxOne whyTextBoxOne whyTextBoxOne"
+      "whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo";
+
+    .titleBoxWhy {
+      padding-top: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      h2 {
+        font-size: 60px;
+        margin-left: 20px;
+      }
+
+      span {
+        font-size: 50px;
+      }
+    }
+    .whyExperienceTitle {
+      font-size: 35px;
+      position: relative;
+      padding-left: 50px;
+      z-index: 2;
+    }
+
+    .whyExperienceContent {
+      font-size: 50px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+
+      p:nth-child(1) {
+        font-weight: bold;
+      }
+    }
+
+    .whyTextBoxOne {
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
+    .whyTextBoxTwo {
+      padding-left: 50px;
+      padding-right: 10px;
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .whyUs {
+    height: 130vh;
+    grid-template-areas:
+      "whyTitle whyTitle whyTitle whyTitle"
+      "experience experience experience experience"
+      "experienceYears experienceYears experienceYears experienceYears"
+      "whyTextBoxOne whyTextBoxOne whyTextBoxOne whyTextBoxOne"
+      "whyTextBoxOne whyTextBoxOne whyTextBoxOne whyTextBoxOne"
+      "whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo";
+
+    .titleBoxWhy {
+      padding-left: 15px;
+      padding-top: 30px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      h2 {
+        font-size: 50px;
+        margin-left: 0px;
+      }
+
+      span {
+        font-size: 40px;
+      }
+    }
+
+    .whyExperienceTitle {
+      padding-left: 15px;
+    }
+
+    .whyExperienceContent {
+      font-size: 50px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+
+      p:nth-child(1) {
+        font-weight: bold;
+      }
+    }
+
+    .whyTextBoxOne {
+      padding-left: 15px;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
+    .whyTextBoxTwo {
+      padding-left: 15px;
+      padding-right: 10px;
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
