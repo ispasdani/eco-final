@@ -12,7 +12,7 @@ function AboutUsSectionOne() {
   let { selectedLanguage } = useContext(LanguageSelectorContext);
 
   return (
-    <section className={styles.aboutUsSectionOne}>
+    <section className={styles.aboutUsSectionOne} id="aboutUs">
       <GridBackground borderColor="var(--main-grey)" oneMoreRow={true} />
       <div className={styles.scrollBand}>
         <ScrollBand

@@ -10,7 +10,7 @@ function WhyUs() {
   let { selectedLanguage } = useContext(LanguageSelectorContext);
 
   return (
-    <section className={styles.whyUs}>
+    <section className={styles.whyUs} id="whyUs">
       <GridBackground borderColor="var(--main-grey)" />
       <div className={styles.titleBoxWhy}>
         <span>

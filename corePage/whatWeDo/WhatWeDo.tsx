@@ -10,7 +10,7 @@ function WhatWeDo() {
   let { selectedLanguage } = useContext(LanguageSelectorContext);
 
   return (
-    <div className={styles.whatWeDo}>
+    <div className={styles.whatWeDo} id="whatWeDo">
       <GridBackground borderColor="var(--main-grey)" />
       <div className={styles.titleBox}>
         <span>
