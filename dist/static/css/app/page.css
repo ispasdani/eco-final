@@ -312,6 +312,7 @@
   align-items: center;
   width: 30px;
   height: 30px;
+  z-index: 4;
 }
 .styles_infoCircleContainer__aXlXn .styles_infoCircle___iMOl {
   width: 30px;
@@ -1592,6 +1593,7 @@
   background-image: url("/images/moara.png");
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .styles_whyUsSectionTwo__ap8kG .styles_sortingMillLabel__aoOa2 {
   grid-area: sortingMillLabel;
@@ -1610,6 +1612,7 @@
   background-image: url("/images/camioane.png");
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 @media (max-width: 600px) {
