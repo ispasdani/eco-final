@@ -1,16 +1,16 @@
 export const plasticwaste = [
-  "url(/images/plastic/pet.jpg)",
+  "url(/images/plastic/pet.JPG)",
   "url(/images/plastic/folie.jpg)",
-  "url(/images/plastic/ladite.jpg)",
-  "url(/images/plastic/tavite.jpg)",
-  "url(/images/plastic/plasticfarametal.jpg)",
-  "url(/images/plastic/copex.jpg)",
+  "url(/images/plastic/ladite.JPG)",
+  "url(/images/plastic/tavite.JPG)",
+  "url(/images/plastic/plasticfarametal.JPG)",
+  "url(/images/plastic/copex.JPG)",
 ];
 export const woodwaste = ["url(/images/wood/wood.JPG)"];
 
 export const papercardboardwaste = [
-  "url(/images/carton/carton.jpg)",
-  "url(/images/carton/hartie.jpg)",
+  "url(/images/carton/carton.JPG)",
+  "url(/images/carton/hartie.JPG)",
 ];
 
 export const textileandleatherwaste = ["url(/images/piele/piele.jpg)"];
