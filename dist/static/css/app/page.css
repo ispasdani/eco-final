@@ -1053,6 +1053,156 @@
   background-size: cover;
   cursor: pointer;
 }
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionFive/styles.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__Ekjmj {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "rubberwaste rubberImages rubberImages rubberImages" "rubberwaste rubberImages rubberImages rubberImages" "usedbatteries usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteries usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberwaste__38qiL {
+  grid-area: rubberwaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl {
+  grid-area: rubberImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteries__9uBfP {
+  grid-area: usedbatteries;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH {
+  grid-area: usedbatteriesImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__Ekjmj {
+    height: 100vh;
+    grid-template-areas: "rubberwaste rubberwaste plasticWaste plasticWaste" "rubberImages rubberImages rubberImages rubberImages" "rubberImages rubberImages rubberImages rubberImages" "rubberImages rubberImages rubberImages rubberImages" "rubberImages rubberImages rubberImages rubberImages" "usedbatteries usedbatteries usedbatteries usedbatteries" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+  }
+  .styles_categoriesSectionTwo__Ekjmj .styles_rubberwaste__38qiL {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__Ekjmj .styles_usedbatteries__9uBfP {
+    height: 100px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionFour/styles.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__omG9m {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "glasswaste glassImages glassImages glassImages" "glasswaste glassImages glassImages glassImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipment__zuxcW {
+  grid-area: wasteelectricalandelectronicequipment;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo {
+  grid-area: wasteelectricalandelectronicequipmentImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__omG9m .styles_glasswaste__L_oYK {
+  grid-area: glasswaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP {
+  grid-area: glassImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__omG9m {
+    height: 100vh;
+    grid-template-areas: "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipment plasticWaste plasticWaste" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "glasswaste glasswaste glasswaste glasswaste" "glassImages glassImages glassImages glassImages" "glassImages glassImages glassImages glassImages" "glassImages glassImages glassImages glassImages" "glassImages glassImages glassImages glassImages";
+  }
+  .styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipment__zuxcW {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__omG9m .styles_glasswaste__L_oYK {
+    height: 100px;
+  }
+}
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionOne/styles.module.scss ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -1088,7 +1238,7 @@
   background-color: transparent;
 }
 .styles_categoriesSectionOne__OwnEH .styles_plasticImages__X9iDY::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: var(--main-grey);
 }
 .styles_categoriesSectionOne__OwnEH .styles_woodWaste__lIBsB {
   grid-area: woodWaste;
@@ -1113,7 +1263,7 @@
   background-color: transparent;
 }
 .styles_categoriesSectionOne__OwnEH .styles_woodImages__XMVgC::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: var(--main-grey);
 }
 
 @media (max-width: 900px) {
@@ -1125,6 +1275,156 @@
     height: 100px;
   }
   .styles_categoriesSectionOne__OwnEH .styles_woodWaste__lIBsB {
+    height: 100px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionSix/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__PYyKe {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "hazardouswaste hazardousImages hazardousImages hazardousImages" "hazardouswaste hazardousImages hazardousImages hazardousImages" ". . . ." ". . . .";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardouswaste__90q5c {
+  grid-area: hazardouswaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH {
+  grid-area: hazardousImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteries__m5J1d {
+  grid-area: usedbatteries;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB {
+  grid-area: usedbatteriesImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__PYyKe {
+    height: 100vh;
+    grid-template-areas: "hazardouswaste hazardouswaste plasticWaste plasticWaste" "hazardousImages hazardousImages hazardousImages hazardousImages" "hazardousImages hazardousImages hazardousImages hazardousImages" "hazardousImages hazardousImages hazardousImages hazardousImages" "hazardousImages hazardousImages hazardousImages hazardousImages" "usedbatteries usedbatteries usedbatteries usedbatteries" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+  }
+  .styles_categoriesSectionTwo__PYyKe .styles_hazardouswaste__90q5c {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__PYyKe .styles_usedbatteries__m5J1d {
+    height: 100px;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionThree/styles.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__tlJcS {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "ferrousmetalwaste ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalwaste ferrousmetalImages ferrousmetalImages ferrousmetalImages" "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalwaste__WFcm_ {
+  grid-area: ferrousmetalwaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr {
+  grid-area: ferrousmetalImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherWaste__vBLkN {
+  grid-area: textileAndLeatherWaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG {
+  grid-area: textileAndLeatherImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__tlJcS {
+    height: 100vh;
+    grid-template-areas: "ferrousmetalwaste ferrousmetalwaste plasticWaste plasticWaste" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  }
+  .styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalwaste__WFcm_ {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherWaste__vBLkN {
     height: 100px;
   }
 }
@@ -1163,7 +1463,7 @@
   background-color: transparent;
 }
 .styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardImages__FYgmd::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: var(--main-grey);
 }
 .styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherWaste__ksAJ2 {
   grid-area: textileAndLeatherWaste;
@@ -1188,7 +1488,7 @@
   background-color: transparent;
 }
 .styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherImages__oIAXM::-webkit-scrollbar-thumb {
-  background-color: transparent;
+  background-color: var(--main-grey);
 }
 
 @media (max-width: 900px) {

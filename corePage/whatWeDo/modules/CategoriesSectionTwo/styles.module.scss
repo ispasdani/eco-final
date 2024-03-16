@@ -38,7 +38,7 @@
   }
 
   .paperCardboardImages::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: var(--main-grey);
   }
 
   .textileAndLeatherWaste {
@@ -68,7 +68,7 @@
   }
 
   .textileAndLeatherImages::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: var(--main-grey);
   }
 }
 

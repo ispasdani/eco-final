@@ -1,0 +1,98 @@
+.categoriesSectionTwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages"
+    "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages"
+    "glasswaste glassImages glassImages glassImages"
+    "glasswaste glassImages glassImages glassImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  .wasteelectricalandelectronicequipment {
+    grid-area: wasteelectricalandelectronicequipment;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .wasteelectricalandelectronicequipmentImages {
+    grid-area: wasteelectricalandelectronicequipmentImages;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .wasteelectricalandelectronicequipmentImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .wasteelectricalandelectronicequipmentImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .wasteelectricalandelectronicequipmentImages::-webkit-scrollbar-thumb {
+    background-color: var(--main-grey);
+  }
+
+  .glasswaste {
+    grid-area: glasswaste;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .glassImages {
+    grid-area: glassImages;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .glassImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .glassImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .glassImages::-webkit-scrollbar-thumb {
+    background-color: var(--main-grey);
+  }
+}
+
+@media (max-width: 900px) {
+  .categoriesSectionTwo {
+    height: 100vh;
+    grid-template-areas:
+      "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipment plasticWaste plasticWaste"
+      "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages"
+      "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages"
+      "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages"
+      "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages"
+      "glasswaste glasswaste glasswaste glasswaste"
+      "glassImages glassImages glassImages glassImages"
+      "glassImages glassImages glassImages glassImages"
+      "glassImages glassImages glassImages glassImages"
+      "glassImages glassImages glassImages glassImages";
+
+    .wasteelectricalandelectronicequipment {
+      height: 100px;
+    }
+
+    .glasswaste {
+      height: 100px;
+    }
+  }
+}

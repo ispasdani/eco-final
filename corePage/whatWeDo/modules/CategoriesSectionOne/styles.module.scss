@@ -38,7 +38,7 @@
   }
 
   .plasticImages::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: var(--main-grey);
   }
 
   .woodWaste {
@@ -68,7 +68,7 @@
   }
 
   .woodImages::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: var(--main-grey);
   }
 }
 

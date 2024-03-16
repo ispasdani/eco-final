@@ -1,0 +1,98 @@
+.categoriesSectionTwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "hazardouswaste hazardousImages hazardousImages hazardousImages"
+    "hazardouswaste hazardousImages hazardousImages hazardousImages"
+    ". . . ."
+    ". . . .";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  .hazardouswaste {
+    grid-area: hazardouswaste;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .hazardousImages {
+    grid-area: hazardousImages;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .hazardousImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .hazardousImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .hazardousImages::-webkit-scrollbar-thumb {
+    background-color: var(--main-grey);
+  }
+
+  .usedbatteries {
+    grid-area: usedbatteries;
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .usedbatteriesImages {
+    grid-area: usedbatteriesImages;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .usedbatteriesImages::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .usedbatteriesImages::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  .usedbatteriesImages::-webkit-scrollbar-thumb {
+    background-color: var(--main-grey);
+  }
+}
+
+@media (max-width: 900px) {
+  .categoriesSectionTwo {
+    height: 100vh;
+    grid-template-areas:
+      "hazardouswaste hazardouswaste plasticWaste plasticWaste"
+      "hazardousImages hazardousImages hazardousImages hazardousImages"
+      "hazardousImages hazardousImages hazardousImages hazardousImages"
+      "hazardousImages hazardousImages hazardousImages hazardousImages"
+      "hazardousImages hazardousImages hazardousImages hazardousImages"
+      "usedbatteries usedbatteries usedbatteries usedbatteries"
+      "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages"
+      "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages"
+      "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages"
+      "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+
+    .hazardouswaste {
+      height: 100px;
+    }
+
+    .usedbatteries {
+      height: 100px;
+    }
+  }
+}

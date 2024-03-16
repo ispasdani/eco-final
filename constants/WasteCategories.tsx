@@ -15,26 +15,29 @@ export const papercardboardwaste = [
 
 export const textileandleatherwaste = ["url(/images/piele/piele.jpg)"];
 
-export const ferrousmetalwaste = ["/images/metalicferos.jpg"];
+export const ferrousmetalwaste = ["url(/images/feros/metalicferos.JPG)"];
 
 export const nonferrousmetalwaste = [
-  "/images/aluminiu.jpg",
-  "/images/cupru.jpg",
-  "/images/cabluricupru.jpg",
-  "/images/cuprudoi.jpg",
+  "url(/images/neferos/aluminiu.JPG)",
+  "url(/images/neferos/cabluricupru.JPG)",
+  "url(/images/neferos/cupru.JPG)",
+  "url(/images/neferos/curprudoi.JPG)",
 ];
 
 export const wasteelectricalandelectronicequipment = [
-  "/images/electronics.jpg",
-  "/images/deeeunu.jpg",
-  "/images/deeedoi.jpg",
-  "/images/deeetrei.jpg",
-  "/images/deeepatru.jpg",
-  "/images/deeecinci.jpg",
+  "url(/images/electronics/deeecinci.JPG)",
+  "url(/images/electronics/deeeunu.JPG)",
+  "url(/images/electronics/deeedoi.JPG)",
+  "url(/images/electronics/deeetrei.JPG)",
+  "url(/images/electronics/deeepatru.JPG)",
+  "url(/images/electronics/electronics.JPG)",
 ];
 
-export const glasswaste = ["/images/glass.jpg"];
+export const glasswaste = ["url(/images/sticla/glass.jpg)"];
 
-export const rubberwaste = ["/images/rubber.jpg"];
-export const usedbatteries = ["/images/usedBatteries.jpg"];
-export const hazardouswaste = ["/images/.jpg"];
+export const rubberwaste = ["url(/images/rubber/rubber.jpg)"];
+export const usedbatteries = [
+  "url(/images/usedBatteries/usedBatteries.jpg)",
+  "url(/images/usedBatteries/bigBatteries.JPG)",
+];
+export const hazardouswaste = ["url(/images/hazard/hazard.JPG)"];

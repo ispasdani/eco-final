@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import styles from "@/components/navbar/styles.module.scss";
 import NavLogo from "../navLogo/NavLogo";
 import Link from "next/link";
@@ -11,13 +11,31 @@ import { navTexts } from "@/constants/NavTexts";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState<boolean>(false);
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setIsScrolling(true);
+    } else {
+      setIsScrolling(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   let { selectedLanguage, setSelectedLanguage } = useContext(
     LanguageSelectorContext
   );
 
   return (
-    <header className={styles.header}>
+    <header
+      className={`${isScrolling ? styles.headerOnScroll : styles.header}`}
+    >
       <div className={styles.logo}>
         <NavLogo />
       </div>
