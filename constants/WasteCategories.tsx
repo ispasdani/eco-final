@@ -1,16 +1,16 @@
 export const plasticwaste = [
-  "url(/images/plastic/pet.JPG)",
+  "url(/images/plastic/pet.jpg)",
   "url(/images/plastic/folie.jpg)",
-  "url(/images/plastic/ladite.JPG)",
-  "url(/images/plastic/tavite.JPG)",
+  "url(/images/plastic/ladite.jpg)",
+  "url(/images/plastic/tavite.jpg)",
   "url(/images/plastic/plasticfarametal.jpg)",
-  "url(/images/plastic/copex.JPG)",
+  "url(/images/plastic/copex.jpg)",
 ];
 export const woodwaste = ["url(/images/wood/wood.JPG)"];
 
 export const papercardboardwaste = [
-  "url(/images/carton/carton.JPG)",
-  "url(/images/carton/hartie.JPG)",
+  "url(/images/carton/carton.jpg)",
+  "url(/images/carton/hartie.jpg)",
 ];
 
 export const textileandleatherwaste = ["url(/images/piele/piele.jpg)"];
@@ -30,7 +30,7 @@ export const wasteelectricalandelectronicequipment = [
   "url(/images/electronics/deeedoi.JPG)",
   "url(/images/electronics/deeetrei.JPG)",
   "url(/images/electronics/deeepatru.JPG)",
-  "url(/images/electronics/electronics.JPG)",
+  "url(/images/electronics/electronics.jpg)",
 ];
 
 export const glasswaste = ["url(/images/sticla/glass.jpg)"];
