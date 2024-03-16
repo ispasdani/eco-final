@@ -1,0 +1,1791 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/gridBackground/styles.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_gridLines__PdrMC {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "line1 line2 line3 line4" "line5 line6 line7 line8" "line9 line10 line11 line12" "line13 line14 line15 line16";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  position: absolute;
+  z-index: 1;
+  animation: styles_fade-in__AckeO 3s ease infinite;
+}
+.styles_gridLines__PdrMC .styles_gridLine1__kNyfV {
+  grid-area: line1;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine2__m3rlL {
+  grid-area: line2;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine3__PiTap {
+  grid-area: line3;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine4__J7ahu {
+  grid-area: line4;
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine5__Xb9lA {
+  grid-area: line5;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine6__dgSbR {
+  grid-area: line6;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine7__0leek {
+  grid-area: line7;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine8__4uImk {
+  grid-area: line8;
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine9__RVmQH {
+  grid-area: line9;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLines__PdrMC .styles_gridLine10__NnUyj {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line10;
+}
+.styles_gridLines__PdrMC .styles_gridLine11__uiuK0 {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line11;
+}
+.styles_gridLines__PdrMC .styles_gridLine12__0gSx_ {
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line12;
+}
+.styles_gridLines__PdrMC .styles_gridLine13__S2nVN {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line13;
+}
+.styles_gridLines__PdrMC .styles_gridLine14__O7qWw {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line14;
+}
+.styles_gridLines__PdrMC .styles_gridLine15__kdG1k {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line15;
+}
+.styles_gridLines__PdrMC .styles_gridLine16__hIV7Y {
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line16;
+}
+
+.styles_gridLinesOneMoreRow__nJXYz {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "line1 line2 line3 line4" "line5 line6 line7 line8" "line9 line10 line11 line12" "line13 line14 line15 line16" "line17 line18 line19 line20";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  position: absolute;
+  z-index: 1;
+  animation: styles_fade-in__AckeO 3s ease infinite;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine1__kNyfV {
+  grid-area: line1;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine2__m3rlL {
+  grid-area: line2;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine3__PiTap {
+  grid-area: line3;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine4__J7ahu {
+  grid-area: line4;
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine5__Xb9lA {
+  grid-area: line5;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine6__dgSbR {
+  grid-area: line6;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine7__0leek {
+  grid-area: line7;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine8__4uImk {
+  grid-area: line8;
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine9__RVmQH {
+  grid-area: line9;
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine10__NnUyj {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line10;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine11__uiuK0 {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line11;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine12__0gSx_ {
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line12;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine13__S2nVN {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line13;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine14__O7qWw {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line14;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine15__kdG1k {
+  border-right: 1px solid var(--main-white);
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line15;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine16__hIV7Y {
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line16;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine17__7nHV_ {
+  border-bottom: 1px solid var(--main-white);
+  border-right: 1px solid var(--main-white);
+  grid-area: line17;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine18__tXlIy {
+  border-bottom: 1px solid var(--main-white);
+  border-right: 1px solid var(--main-white);
+  grid-area: line18;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine19__zWaX8 {
+  border-bottom: 1px solid var(--main-white);
+  border-right: 1px solid var(--main-white);
+  grid-area: line19;
+}
+.styles_gridLinesOneMoreRow__nJXYz .styles_gridLine20__pu29o {
+  border-bottom: 1px solid var(--main-white);
+  grid-area: line20;
+}
+
+@media (max-width: 900px) {
+  .styles_gridLines__PdrMC {
+    grid-template-areas: "line1 line2 line3" "line5 line6 line7" "line9 line10 line11" "line13 line14 line15";
+  }
+  .styles_gridLines__PdrMC .styles_gridLine4__J7ahu {
+    display: none;
+  }
+  .styles_gridLines__PdrMC .styles_gridLine8__4uImk {
+    display: none;
+  }
+  .styles_gridLines__PdrMC .styles_gridLine12__0gSx_ {
+    display: none;
+  }
+  .styles_gridLines__PdrMC .styles_gridLine16__hIV7Y {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz {
+    grid-template-areas: "line1 line2 line3" "line5 line6 line7" "line9 line10 line11" "line13 line14 line15" "line17 line18 line19";
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine4__J7ahu {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine8__4uImk {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine12__0gSx_ {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine16__hIV7Y {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine20__pu29o {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .styles_gridLines__PdrMC {
+    grid-template-areas: "line1 line2" "line5 line6" "line9 line10" "line13 line14";
+  }
+  .styles_gridLines__PdrMC .styles_gridLine3__PiTap {
+    display: none;
+  }
+  .styles_gridLines__PdrMC .styles_gridLine7__0leek {
+    display: none;
+  }
+  .styles_gridLines__PdrMC .styles_gridLine11__uiuK0 {
+    display: none;
+  }
+  .styles_gridLines__PdrMC .styles_gridLine15__kdG1k {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz {
+    grid-template-areas: "line1 line2" "line5 line6" "line9 line10" "line13 line14" "line17 line18 ";
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine3__PiTap {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine7__0leek {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine11__uiuK0 {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine15__kdG1k {
+    display: none;
+  }
+  .styles_gridLinesOneMoreRow__nJXYz .styles_gridLine19__zWaX8 {
+    display: none;
+  }
+}
+@keyframes styles_fade-in__AckeO {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 0.7;
+  }
+  60% {
+    opacity: 0.1;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/scrollBand/styles.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_textOnScrollContainer__GWt8I {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  align-items: flex-end;
+  color: var(--text-green);
+}
+.styles_textOnScrollContainer__GWt8I .styles_motionText__9YxER {
+  font-size: 50px;
+  white-space: nowrap;
+  margin-left: 25px;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/infoCircle/styles.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_infoCircleContainer__aXlXn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  z-index: 4;
+}
+.styles_infoCircleContainer__aXlXn .styles_infoCircle___iMOl {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid var(--main-white);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: styles_vibrate-1__8ndj9 0.3s linear infinite both;
+}
+.styles_infoCircleContainer__aXlXn .styles_infoCircle___iMOl .styles_infoSmallerCircle__cF_Q_ {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--main-white);
+}
+.styles_infoCircleContainer__aXlXn .styles_infoCircle___iMOl .styles_infoCircleText__JkYOg {
+  display: none;
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  width: 320px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+}
+.styles_infoCircleContainer__aXlXn .styles_infoCircle___iMOl:hover {
+  animation-play-state: paused;
+}
+.styles_infoCircleContainer__aXlXn .styles_infoCircle___iMOl:hover .styles_infoCircleText__JkYOg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  animation: styles_scale-in-tl__NfiUz 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  color: var(--main-black);
+}
+@keyframes styles_scale-in-tl__NfiUz {
+  0% {
+    transform: scale(0);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+@keyframes styles_vibrate-1__8ndj9 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/aboutUs/styles.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_aboutUsSectionOne__PStHd {
+  width: 100%;
+  height: 125vh;
+  grid-template-areas: "scrollBand scrollBand scrollBand scrollBand" "titleSection titleSection titleSection titleSection" "textOne textOne imageOne imageOne" "textOne textOne imageOne imageOne" "textOne textOne . .";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  position: relative;
+}
+.styles_aboutUsSectionOne__PStHd .styles_scrollBand__O_3GK {
+  grid-area: scrollBand;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+.styles_aboutUsSectionOne__PStHd .styles_titleSectionOne__EaYQ1 {
+  grid-area: titleSection;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 50px;
+  z-index: 2;
+  position: relative;
+}
+.styles_aboutUsSectionOne__PStHd .styles_titleSectionOne__EaYQ1 h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.styles_aboutUsSectionOne__PStHd .styles_titleSectionOne__EaYQ1 h3 {
+  font-size: 60px;
+}
+.styles_aboutUsSectionOne__PStHd .styles_inLine__ey7wn {
+  display: flex;
+}
+.styles_aboutUsSectionOne__PStHd .styles_textOne__NoWOM {
+  grid-area: textOne;
+  width: 50%;
+  height: 75vh;
+  padding: 0px 50px;
+  position: relative;
+  z-index: 2;
+  overflow-y: scroll;
+}
+.styles_aboutUsSectionOne__PStHd .styles_textOne__NoWOM p {
+  margin: 30px 0px;
+}
+.styles_aboutUsSectionOne__PStHd .styles_textOne__NoWOM::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_aboutUsSectionOne__PStHd .styles_textOne__NoWOM::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_aboutUsSectionOne__PStHd .styles_textOne__NoWOM::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_aboutUsSectionOne__PStHd .styles_imageOne__uJjZz {
+  width: 50%;
+  height: 50vh;
+  grid-area: imageOne;
+  background-image: url("/images/plasticPolution.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 700px) {
+  .styles_aboutUsSectionOne__PStHd {
+    height: 150vh;
+    grid-template-areas: "scrollBand scrollBand" "titleSection titleSection" "imageOne imageOne" "textOne textOne " "textOne textOne . .";
+  }
+  .styles_aboutUsSectionOne__PStHd .styles_titleSectionOne__EaYQ1 {
+    padding: 0px 15px;
+  }
+  .styles_aboutUsSectionOne__PStHd .styles_inLine__ey7wn {
+    flex-direction: column-reverse;
+  }
+  .styles_aboutUsSectionOne__PStHd .styles_inLine__ey7wn .styles_imageOne__uJjZz {
+    width: 100%;
+    height: 25vh;
+  }
+  .styles_aboutUsSectionOne__PStHd .styles_inLine__ey7wn .styles_textOne__NoWOM {
+    width: 100%;
+  }
+  .styles_aboutUsSectionOne__PStHd .styles_titleSectionOne__EaYQ1 h3 {
+    font-size: 40px;
+  }
+  .styles_aboutUsSectionOne__PStHd .styles_titleSectionOne__EaYQ1 h2 {
+    font-size: 50px;
+    margin-left: 15px;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/aboutUs/modules/AboutUsSectionFive/styles.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_aboutUsSectionFive__JXYJ0 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.styles_aboutUsSectionFive__JXYJ0 video {
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .styles_aboutUsSectionFive__JXYJ0 {
+    height: 50vh;
+  }
+  .styles_aboutUsSectionFive__JXYJ0 video {
+    width: 100%;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/accordion/styles.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_workAccordion__zLoKV {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs {
+  width: 100%;
+  min-height: 55px;
+  border-bottom: 1px solid var(--border-grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs .styles_lineDecor__hQo95 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 5px;
+  background-color: var(--text-green);
+  transition: 0.3s all ease-in-out;
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs .styles_workAccordionLeft__x9gYG {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs .styles_workAccordionLeft__x9gYG p {
+  margin: 0px 5px;
+  transition: 0.3s all ease-in-out;
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs .styles_workAccordionLeft__x9gYG p span {
+  color: var(--main-black);
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs .styles_workAccordionLeft__x9gYG .styles_decorCircle__aAReI {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--main-black);
+  margin-right: 15px;
+  transition: 0.2s all ease-in-out;
+}
+.styles_workAccordion__zLoKV .styles_workAccordionTop___aUSs .styles_workAccordionImage__p0yvZ {
+  border: 1px solid black;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.styles_workAccordion__zLoKV .styles_expand__fFbQa {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 15px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.styles_workAccordionTop___aUSs:hover {
+  background-color: #f5f5f5;
+}
+
+.styles_workAccordionTop___aUSs:hover .styles_lineDecor__hQo95 {
+  width: 100%;
+  background-color: var(--text-green);
+}
+
+.styles_workAccordionTop___aUSs:hover .styles_workAccordionLeft__x9gYG .styles_decorCircle__aAReI {
+  background-color: var(--text-green);
+}
+
+.styles_workAccordionTop___aUSs:hover .styles_workAccordionLeft__x9gYG p span {
+  color: var(--text-green);
+}
+
+.styles_workAccordionTop___aUSs:hover svg {
+  fill: var(--text-green);
+}
+
+@media (max-width: 600px) {
+  .styles_workAccordion__zLoKV {
+    padding: 0px 15px;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/aboutUs/modules/AboutUsSectionFour/styles.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_aboutUsSectionFour__zVxxL {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "titleFour titleFour introTextFour introTextFour " "introFour introFour introFour introFour" "certAccordion certAccordion certAccordion certAccordion" "certAccordion certAccordion certAccordion certAccordion";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_aboutUsSectionFour__zVxxL h2 {
+  grid-area: titleFour;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 35px;
+  color: var(--main-black);
+  position: relative;
+  z-index: 3;
+  padding-left: 50px;
+  text-align: center;
+}
+.styles_aboutUsSectionFour__zVxxL .styles_introTextFour__viVpG {
+  grid-area: introTextFour;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  color: var(--main-black);
+  padding-right: 50px;
+  position: relative;
+  z-index: 3;
+}
+.styles_aboutUsSectionFour__zVxxL .styles_introFour__HkGtd {
+  grid-area: introFour;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+.styles_aboutUsSectionFour__zVxxL .styles_certAccordions__lBPYS {
+  width: 100%;
+  grid-area: certAccordion;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 750px) {
+  .styles_aboutUsSectionFour__zVxxL {
+    height: 130vh;
+    grid-template-areas: "titleFour titleFour titleFour titleFour " "introTextFour introTextFour introTextFour introTextFour" "introFour introFour introFour introFour" "introFour introFour introFour introFour" "introFour introFour introFour introFour" "certAccordion certAccordion certAccordion certAccordion" "certAccordion certAccordion certAccordion certAccordion" "certAccordion certAccordion certAccordion certAccordion";
+  }
+  .styles_aboutUsSectionFour__zVxxL .styles_introTextFour__viVpG {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .styles_aboutUsSectionFour__zVxxL {
+    min-height: 50vh;
+    padding-bottom: 30px;
+    grid-template-areas: "titleFour titleFour titleFour titleFour " "introTextFour introTextFour introTextFour introTextFour" "introFour introFour introFour introFour" "certAccordion certAccordion certAccordion certAccordion";
+  }
+  .styles_aboutUsSectionFour__zVxxL h2 {
+    padding-left: 15px;
+  }
+  .styles_aboutUsSectionFour__zVxxL .styles_introTextFour__viVpG {
+    padding-left: 15px;
+  }
+  .styles_aboutUsSectionFour__zVxxL .styles_introFour__HkGtd {
+    padding: 0px 15px;
+    margin-bottom: 45px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./svgs/EuropeMap/styles.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_europeMap__E3NfG {
+  width: 500px;
+}
+.styles_europeMap__E3NfG .styles_ro__mEb8q:hover {
+  fill: var(--text-green);
+  stroke: var(--text-green);
+  cursor: pointer;
+}
+.styles_europeMap__E3NfG .styles_hu__q5h0P:hover {
+  fill: var(--text-green);
+  stroke: var(--text-green);
+  cursor: pointer;
+}
+.styles_europeMap__E3NfG .styles_md__2J_0k:hover {
+  fill: var(--text-green);
+  stroke: var(--text-green);
+  cursor: pointer;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/aboutUs/modules/AboutUsSectionThree/styles.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_aboutUsSectionThree__Dz0zs {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-green);
+  position: relative;
+  display: grid;
+  grid-template-areas: "titleThree titleThree titleThree titleThree" "introTextThree introTextThree introTextThree introTextThree" "infoThree infoThree countryMap countryMap" "infoThree infoThree countryMap countryMap";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_aboutUsSectionThree__Dz0zs h2 {
+  grid-area: titleThree;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 35px;
+  color: var(--main-white);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.styles_aboutUsSectionThree__Dz0zs p {
+  grid-area: introTextThree;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  color: var(--main-white);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.styles_aboutUsSectionThree__Dz0zs .styles_bottomText__og5o0 {
+  grid-area: infoThree;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+}
+.styles_aboutUsSectionThree__Dz0zs .styles_bottomText__og5o0 p {
+  margin: 15px 0px;
+}
+.styles_aboutUsSectionThree__Dz0zs .styles_europeMapContainer__jZYr4 {
+  position: relative;
+  grid-area: countryMap;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.styles_aboutUsSectionThree__Dz0zs .styles_europeMapContainer__jZYr4 .styles_countryTitle__IHvY3 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 26px;
+  color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_aboutUsSectionThree__Dz0zs {
+    height: 150vh;
+    grid-template-areas: "titleThree titleThree titleThree titleThree" "introTextThree introTextThree introTextThree introTextThree" "infoThree infoThree infoThree infoThree" "infoThree infoThree infoThree infoThree " "countryMap countryMap countryMap countryMap" "countryMap countryMap countryMap countryMap";
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/aboutUs/modules/AboutUsSectionTwo/styles.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_aboutUsSectionTwo__7Ps40 {
+  width: 100%;
+  height: 125vh;
+  display: grid;
+  grid-template-areas: "imageTwo imageTwo imageTwoRight imageTwoRight" "imageTwo imageTwo imageTwoRight imageTwoRight" "textTwo textTwo imageTwoRight imageTwoRight" "textTwo textTwo textTwoRight textTwoRight" ". . textTwoRight textTwoRight";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+.styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_imageTwo__q2XNb {
+  width: 100%;
+  height: 50vh;
+  background-color: red;
+  grid-area: imageTwo;
+  background-image: url("/images/greifer.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+.styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_textTwo__u_VFD {
+  height: 75vh;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+.styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+.styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_imageTwoRight__2it4a {
+  width: 100%;
+  height: 75vh;
+  grid-area: imageTwoRight;
+  background-image: url("/images/logistics.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+.styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_textTwoRight__CZa5b {
+  height: 50vh;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .styles_aboutUsSectionTwo__7Ps40 {
+    height: 200vh;
+    flex-direction: column;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg {
+    width: 100%;
+    height: 50%;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_imageTwo__q2XNb {
+    height: 40vh;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_textTwo__u_VFD {
+    height: 30vh;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez {
+    width: 100%;
+    height: 50%;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_imageTwoRight__2it4a {
+    height: 40vh;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_textTwoRight__CZa5b {
+    height: 30vh;
+  }
+}
+@media (max-width: 700px) {
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg {
+    padding: 0;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_textTwo__u_VFD {
+    padding: 15px;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez {
+    padding: 0;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_textTwoRight__CZa5b {
+    padding: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .styles_aboutUsSectionTwo__7Ps40 {
+    height: 170vh;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg {
+    padding: 0;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_imageTwo__q2XNb {
+    height: 25vh;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoLeft__oNmBg .styles_textTwo__u_VFD {
+    padding: 15px;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez {
+    padding: 0;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_imageTwoRight__2it4a {
+    height: 25vh;
+  }
+  .styles_aboutUsSectionTwo__7Ps40 .styles_aboutUsSectionTwoRight__PK8ez .styles_textTwoRight__CZa5b {
+    padding: 15px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/backgroundVideo/styles.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_backgroundVideo__UDfUB {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./svgs/Arrows/styles.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_arrowDecor__E2rZt {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.styles_arrowDecor__E2rZt path {
+  fill: var(--main-white);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/herobox/styles.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_herobox__tvR4H {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10vh;
+  display: grid;
+  grid-template-areas: "heroLeft heroRight heroRight heroRight";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  color: var(--main-white);
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxLeft__V1m61 {
+  grid-area: heroLeft;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxLeft__V1m61 p {
+  font-size: 22px;
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP {
+  grid-area: heroRight;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP h1 {
+  font-size: 10vw;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP p {
+  font-size: 90px;
+}
+.styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP p:nth-child(2) {
+  font-size: 50px;
+}
+
+@media (max-width: 1153px) {
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP h1 {
+    font-size: 100px;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP p {
+    font-size: 80px;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP p:nth-child(2) {
+    font-size: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .styles_herobox__tvR4H {
+    min-height: 100vh;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo {
+    min-height: 100vh;
+    grid-template-areas: "heroLeft heroRight heroRight";
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP {
+    height: 80vh;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP h1 {
+    font-size: 10vw;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP p {
+    font-size: 9vw;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP p:nth-child(2) {
+    font-size: 7vw;
+  }
+}
+@media (max-width: 600px) {
+  .styles_herobox__tvR4H {
+    min-height: 110vh;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo {
+    min-height: 110vh;
+    grid-template-areas: "heroRight" "heroLeft";
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxLeft__V1m61 {
+    height: 50;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP {
+    height: 45vh;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .styles_herobox__tvR4H .styles_heroboxContent__9PDYo .styles_heroboxRight__iSBEP h1 {
+    font-size: 13vw;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/imageWasteCategory/styles.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_image__yWpJH {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 30px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionFive/styles.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__Ekjmj {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "rubberwaste rubberImages rubberImages rubberImages" "rubberwaste rubberImages rubberImages rubberImages" "usedbatteries usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteries usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberwaste__38qiL {
+  grid-area: rubberwaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl {
+  grid-area: rubberImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_rubberImages__f7SJl::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteries__9uBfP {
+  grid-area: usedbatteries;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH {
+  grid-area: usedbatteriesImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__Ekjmj .styles_usedbatteriesImages__C_FQH::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__Ekjmj {
+    height: 100vh;
+    grid-template-areas: "rubberwaste rubberwaste plasticWaste plasticWaste" "rubberImages rubberImages rubberImages rubberImages" "rubberImages rubberImages rubberImages rubberImages" "rubberImages rubberImages rubberImages rubberImages" "rubberImages rubberImages rubberImages rubberImages" "usedbatteries usedbatteries usedbatteries usedbatteries" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+  }
+  .styles_categoriesSectionTwo__Ekjmj .styles_rubberwaste__38qiL {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__Ekjmj .styles_usedbatteries__9uBfP {
+    height: 100px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionFour/styles.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__omG9m {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "glasswaste glassImages glassImages glassImages" "glasswaste glassImages glassImages glassImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipment__zuxcW {
+  grid-area: wasteelectricalandelectronicequipment;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo {
+  grid-area: wasteelectricalandelectronicequipmentImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipmentImages__mUcHo::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__omG9m .styles_glasswaste__L_oYK {
+  grid-area: glasswaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP {
+  grid-area: glassImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__omG9m .styles_glassImages__21yDP::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__omG9m {
+    height: 100vh;
+    grid-template-areas: "wasteelectricalandelectronicequipment wasteelectricalandelectronicequipment plasticWaste plasticWaste" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages wasteelectricalandelectronicequipmentImages" "glasswaste glasswaste glasswaste glasswaste" "glassImages glassImages glassImages glassImages" "glassImages glassImages glassImages glassImages" "glassImages glassImages glassImages glassImages" "glassImages glassImages glassImages glassImages";
+  }
+  .styles_categoriesSectionTwo__omG9m .styles_wasteelectricalandelectronicequipment__zuxcW {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__omG9m .styles_glasswaste__L_oYK {
+    height: 100px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionOne/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionOne__OwnEH {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "plasticWaste plasticImages plasticImages plasticImages" "plasticWaste plasticImages plasticImages plasticImages" "woodWaste woodImages woodImages woodImages" "woodWaste woodImages woodImages woodImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionOne__OwnEH .styles_plasticWaste__L2OGx {
+  grid-area: plasticWaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionOne__OwnEH .styles_plasticImages__X9iDY {
+  grid-area: plasticImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionOne__OwnEH .styles_plasticImages__X9iDY::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionOne__OwnEH .styles_plasticImages__X9iDY::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionOne__OwnEH .styles_plasticImages__X9iDY::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionOne__OwnEH .styles_woodWaste__lIBsB {
+  grid-area: woodWaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionOne__OwnEH .styles_woodImages__XMVgC {
+  grid-area: woodImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionOne__OwnEH .styles_woodImages__XMVgC::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionOne__OwnEH .styles_woodImages__XMVgC::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionOne__OwnEH .styles_woodImages__XMVgC::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionOne__OwnEH {
+    height: 100vh;
+    grid-template-areas: "plasticWaste plasticWaste plasticWaste plasticWaste" "plasticImages plasticImages plasticImages plasticImages" "plasticImages plasticImages plasticImages plasticImages" "plasticImages plasticImages plasticImages plasticImages" "plasticImages plasticImages plasticImages plasticImages" "woodWaste woodWaste woodWaste woodWaste" "woodImages woodImages woodImages woodImages" "woodImages woodImages woodImages woodImages" "woodImages woodImages woodImages woodImages" "woodImages woodImages woodImages woodImages";
+  }
+  .styles_categoriesSectionOne__OwnEH .styles_plasticWaste__L2OGx {
+    height: 100px;
+  }
+  .styles_categoriesSectionOne__OwnEH .styles_woodWaste__lIBsB {
+    height: 100px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionSix/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__PYyKe {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "hazardouswaste hazardousImages hazardousImages hazardousImages" "hazardouswaste hazardousImages hazardousImages hazardousImages" ". . . ." ". . . .";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardouswaste__90q5c {
+  grid-area: hazardouswaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH {
+  grid-area: hazardousImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_hazardousImages__pPnLH::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteries__m5J1d {
+  grid-area: usedbatteries;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB {
+  grid-area: usedbatteriesImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__PYyKe .styles_usedbatteriesImages__tgvxB::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__PYyKe {
+    height: 100vh;
+    grid-template-areas: "hazardouswaste hazardouswaste plasticWaste plasticWaste" "hazardousImages hazardousImages hazardousImages hazardousImages" "hazardousImages hazardousImages hazardousImages hazardousImages" "hazardousImages hazardousImages hazardousImages hazardousImages" "hazardousImages hazardousImages hazardousImages hazardousImages" "usedbatteries usedbatteries usedbatteries usedbatteries" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages" "usedbatteriesImages usedbatteriesImages usedbatteriesImages usedbatteriesImages";
+  }
+  .styles_categoriesSectionTwo__PYyKe .styles_hazardouswaste__90q5c {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__PYyKe .styles_usedbatteries__m5J1d {
+    height: 100px;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionThree/styles.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__tlJcS {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "ferrousmetalwaste ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalwaste ferrousmetalImages ferrousmetalImages ferrousmetalImages" "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalwaste__WFcm_ {
+  grid-area: ferrousmetalwaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr {
+  grid-area: ferrousmetalImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalImages__2NYOr::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherWaste__vBLkN {
+  grid-area: textileAndLeatherWaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG {
+  grid-area: textileAndLeatherImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherImages__3N9lG::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__tlJcS {
+    height: 100vh;
+    grid-template-areas: "ferrousmetalwaste ferrousmetalwaste plasticWaste plasticWaste" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "ferrousmetalImages ferrousmetalImages ferrousmetalImages ferrousmetalImages" "textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  }
+  .styles_categoriesSectionTwo__tlJcS .styles_ferrousmetalwaste__WFcm_ {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__tlJcS .styles_textileAndLeatherWaste__vBLkN {
+    height: 100px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/modules/CategoriesSectionTwo/styles.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categoriesSectionTwo__UPQ3K {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "paperCardboardWaste paperCardboardImages paperCardboardImages paperCardboardImages" "paperCardboardWaste paperCardboardImages paperCardboardImages paperCardboardImages" "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherWaste textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardWaste__A5Xh3 {
+  grid-area: paperCardboardWaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardImages__FYgmd {
+  grid-area: paperCardboardImages;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardImages__FYgmd::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardImages__FYgmd::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardImages__FYgmd::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherWaste__ksAJ2 {
+  grid-area: textileAndLeatherWaste;
+  position: relative;
+  z-index: 2;
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherImages__oIAXM {
+  grid-area: textileAndLeatherImages;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherImages__oIAXM::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherImages__oIAXM::-webkit-scrollbar {
+  background-color: transparent;
+}
+.styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherImages__oIAXM::-webkit-scrollbar-thumb {
+  background-color: var(--main-grey);
+}
+
+@media (max-width: 900px) {
+  .styles_categoriesSectionTwo__UPQ3K {
+    height: 100vh;
+    grid-template-areas: "paperCardboardWaste paperCardboardWaste plasticWaste plasticWaste" "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages" "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages" "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages" "paperCardboardImages paperCardboardImages paperCardboardImages paperCardboardImages" "textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste textileAndLeatherWaste" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages" "textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages textileAndLeatherImages";
+  }
+  .styles_categoriesSectionTwo__UPQ3K .styles_paperCardboardWaste__A5Xh3 {
+    height: 100px;
+  }
+  .styles_categoriesSectionTwo__UPQ3K .styles_textileAndLeatherWaste__ksAJ2 {
+    height: 100px;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whatWeDo/styles.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_whatWeDo__E6Z7G {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: ". . . ." "titleBox titleBox titleBox titleBox" "whatWeDoTextOne whatWeDoTextOne whatWeDoTextTwo whatWeDoTextTwo" "whatWeDoTextOne whatWeDoTextOne whatWeDoTextTwo whatWeDoTextTwo";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ {
+  grid-area: titleBox;
+  padding-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ span {
+  font-size: 60px;
+}
+.styles_whatWeDo__E6Z7G .styles_whatWeDoTextOne__n6wgR {
+  grid-area: whatWeDoTextOne;
+  padding: 50px;
+  position: relative;
+  z-index: 2;
+}
+.styles_whatWeDo__E6Z7G .styles_whatWeDoTextTwo___mRRT {
+  grid-area: whatWeDoTextTwo;
+  padding: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 650px) {
+  .styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ {
+    align-items: flex-start;
+  }
+  .styles_whatWeDo__E6Z7G span {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .styles_whatWeDo__E6Z7G {
+    grid-template-areas: ". . . ." "titleBox titleBox titleBox titleBox" "whatWeDoTextOne whatWeDoTextOne whatWeDoTextOne whatWeDoTextOne" "whatWeDoTextTwo whatWeDoTextTwo whatWeDoTextTwo whatWeDoTextTwo";
+  }
+  .styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ {
+    align-items: flex-start;
+    padding: 15px;
+  }
+  .styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ h2 {
+    font-size: 50px;
+  }
+  .styles_whatWeDo__E6Z7G .styles_titleBox__f2FxZ span {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  .styles_whatWeDo__E6Z7G .styles_whatWeDoTextOne__n6wgR {
+    padding: 15px;
+  }
+  .styles_whatWeDo__E6Z7G .styles_whatWeDoTextTwo___mRRT {
+    padding: 15px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whyUs/modules/WhyUsSectionTwo/styles.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_whyUsSectionTwo__ap8kG {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "sortingMillImg sortingMillImg sortingMillLabel sortingMillLabel" "sortingMillImg sortingMillImg sortingMillLabel sortingMillLabel" "trucksLabel trucksLabel trucksImg trucksImg" "trucksLabel trucksLabel trucksImg trucksImg";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+}
+.styles_whyUsSectionTwo__ap8kG .styles_sortingMillImg__xiOgy {
+  grid-area: sortingMillImg;
+  background-image: url("/images/moara.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.styles_whyUsSectionTwo__ap8kG .styles_sortingMillLabel__aoOa2 {
+  grid-area: sortingMillLabel;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 30px;
+}
+.styles_whyUsSectionTwo__ap8kG .styles_trucksLabel__u4sql {
+  grid-area: trucksLabel;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 30px;
+}
+.styles_whyUsSectionTwo__ap8kG .styles_trucksImg__Y3dcH {
+  grid-area: trucksImg;
+  background-image: url("/images/camioane.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .styles_whyUsSectionTwo__ap8kG {
+    grid-template-areas: "sortingMillImg sortingMillImg" "sortingMillLabel sortingMillLabel" "trucksImg trucksImg" "trucksLabel trucksLabel";
+  }
+  .styles_whyUsSectionTwo__ap8kG .styles_sortingMillLabel__aoOa2 {
+    padding: 15px;
+  }
+  .styles_whyUsSectionTwo__ap8kG .styles_trucksLabel__u4sql {
+    padding: 15px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./corePage/whyUs/styles.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_whyUs__EADvB {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-areas: "whyTitle whyTitle experience ." "whyTitle whyTitle . experienceYears" "whyTextBoxOne whyTextBoxOne whyTextBoxTwo whyTextBoxTwo" "whyTextBoxOne whyTextBoxOne whyTextBoxTwo whyTextBoxTwo";
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  background-color: var(--main-green);
+  color: var(--main-white);
+}
+.styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp {
+  padding-top: 50px;
+  grid-area: whyTitle;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 50px;
+  position: relative;
+  z-index: 2;
+}
+.styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp h2 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp span {
+  font-size: 60px;
+}
+.styles_whyUs__EADvB .styles_whyExperienceTitle__E3k9B {
+  grid-area: experience;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 35px;
+  position: relative;
+  z-index: 2;
+}
+.styles_whyUs__EADvB .styles_whyExperienceContent__m5RYt {
+  grid-area: experienceYears;
+  font-size: 50px;
+  padding-left: 10px;
+  position: relative;
+  z-index: 2;
+}
+.styles_whyUs__EADvB .styles_whyExperienceContent__m5RYt p:nth-child(1) {
+  font-weight: bold;
+}
+.styles_whyUs__EADvB .styles_whyTextBoxOne__VVXqO {
+  grid-area: whyTextBoxOne;
+  padding-left: 50px;
+  padding-right: 10px;
+  position: relative;
+  z-index: 2;
+}
+.styles_whyUs__EADvB .styles_whyTextBoxOne__VVXqO p {
+  margin-bottom: 30px;
+}
+.styles_whyUs__EADvB .styles_whyTextBoxTwo__AkjLX {
+  grid-area: whyTextBoxTwo;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  z-index: 2;
+}
+.styles_whyUs__EADvB .styles_whyTextBoxTwo__AkjLX p {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .styles_whyUs__EADvB {
+    grid-template-areas: "whyTitle whyTitle whyTitle whyTitle" "experience experience experienceYears experienceYears" "whyTextBoxOne whyTextBoxOne whyTextBoxOne whyTextBoxOne" "whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo";
+  }
+  .styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp {
+    padding-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp h2 {
+    font-size: 60px;
+    margin-left: 20px;
+  }
+  .styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp span {
+    font-size: 50px;
+  }
+  .styles_whyUs__EADvB .styles_whyExperienceTitle__E3k9B {
+    font-size: 35px;
+    position: relative;
+    padding-left: 50px;
+    z-index: 2;
+  }
+  .styles_whyUs__EADvB .styles_whyExperienceContent__m5RYt {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .styles_whyUs__EADvB .styles_whyExperienceContent__m5RYt p:nth-child(1) {
+    font-weight: bold;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxOne__VVXqO p {
+    margin-bottom: 20px;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxTwo__AkjLX {
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxTwo__AkjLX p {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .styles_whyUs__EADvB {
+    height: 130vh;
+    grid-template-areas: "whyTitle whyTitle whyTitle whyTitle" "experience experience experience experience" "experienceYears experienceYears experienceYears experienceYears" "whyTextBoxOne whyTextBoxOne whyTextBoxOne whyTextBoxOne" "whyTextBoxOne whyTextBoxOne whyTextBoxOne whyTextBoxOne" "whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo whyTextBoxTwo";
+  }
+  .styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp {
+    padding-left: 15px;
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp h2 {
+    font-size: 50px;
+    margin-left: 0px;
+  }
+  .styles_whyUs__EADvB .styles_titleBoxWhy__jGpRp span {
+    font-size: 40px;
+  }
+  .styles_whyUs__EADvB .styles_whyExperienceTitle__E3k9B {
+    padding-left: 15px;
+  }
+  .styles_whyUs__EADvB .styles_whyExperienceContent__m5RYt {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+  }
+  .styles_whyUs__EADvB .styles_whyExperienceContent__m5RYt p:nth-child(1) {
+    font-weight: bold;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxOne__VVXqO {
+    padding-left: 15px;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxOne__VVXqO p {
+    margin-bottom: 20px;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxTwo__AkjLX {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  .styles_whyUs__EADvB .styles_whyTextBoxTwo__AkjLX p {
+    margin-bottom: 20px;
+  }
+}
